@@ -1,0 +1,696 @@
+/* ---------------------------- header code ------------------------ */
+.language-toggle label {
+  margin-bottom: 0;
+}
+
+.language-toggle input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.language-toggle label {
+  display: inline-block;
+  /* background-color: #e9ecef; */
+  padding: 5px 14px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #c08389;
+  margin-right: -5px;
+}
+
+.language-toggle input:checked + label {
+  background-color: #e4293b;
+  color: #fff;
+  border: 1px solid #e4293b;
+}
+.language-toggle input:first-child + label {
+  border-top-left-radius: 5px; /* Set border-radius for the first button */
+  border-bottom-left-radius: 5px;
+}
+
+.language-toggle input:last-of-type + label {
+  border-top-right-radius: 5px; /* Set border-radius for the last button */
+  border-bottom-right-radius: 5px;
+}
+
+/* ------------------------------ common code ---------------------------- */
+.focus-none:focus {
+  border: none;
+  outline: none;
+}
+.screen {
+  min-height: 500px;
+}
+.process-point {
+  height: 12px;
+  width: 12px;
+  background-color: #aeaeae;
+  margin: 0 10px;
+  border-radius: 50px;
+}
+
+.step-counter-h5 {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9dcdd;
+  color: #000000;
+  font-size: 20px;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+}
+
+.form-header-with-skip {
+  display: flex;
+  align-items: center;
+}
+
+.form-header-with-skip div:nth-child(2) {
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+.header-dark-box {
+  height: 25px;
+  width: 30px;
+  background-color: #e4293b;
+  color: #4f4b4b;
+}
+
+/* ---------------------------------------buttons hundler */
+#step-two {
+  display: none;
+}
+#step-three {
+  display: none;
+}
+#step-four {
+  display: none;
+}
+#step-five {
+  display: none;
+}
+#step-six {
+  display: none;
+}
+#step-seven {
+  display: none;
+}
+#step-eight {
+  display: none;
+}
+#step-nine {
+  display: none;
+}
+/* ---------------------------------------buttons hundler */
+#certifications-box {
+  display: none;
+}
+/* ---------------------------- form body ------------------------ */
+.black {
+  background-color: black;
+}
+
+.custom-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-box {
+  font-size: 17px;
+  border: 2px solid #e15258;
+  padding: 8px 15px;
+  display: block;
+  width: 100%;
+}
+
+.input-box::placeholder {
+  color: #c7c7c7;
+}
+
+.header-text {
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+select {
+  color: #c7c7c7;
+}
+
+select option {
+  color: black;
+}
+
+.input-label {
+  font-size: 18px;
+  color: #4c4b4b;
+  font-weight: 500;
+}
+
+.switch-button {
+  font-size: 19px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  background-color: #d71921;
+  display: block;
+  width: 40%;
+  border: none;
+}
+
+.page-footer {
+  padding: 20px 10px;
+  background-color: #d71921;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page-footer a {
+  font-size: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.all-field-box > div {
+  padding: 8px 0;
+}
+
+.flex-input-field {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-number label {
+  width: 40%;
+}
+
+.mobile-number input {
+  width: 60%;
+}
+
+.present-address label {
+  width: 40%;
+}
+
+.address-boxgroup {
+  width: 60%;
+}
+
+.small-label {
+  font-size: 9px;
+}
+
+.upload-photo {
+  border: 2px solid #e15258;
+  border-radius: 10px;
+}
+
+.photo-icon {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #e15258;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #9d9d9d;
+}
+
+.upload-photo h5 {
+  color: black;
+  font-weight: 1000;
+  font-size: 15px;
+}
+
+.upload-photo h6 {
+  color: #b9b9b9;
+  font-size: 12px;
+}
+
+.skip-btn {
+  border: none;
+  font-weight: 400;
+  font-size: 25px;
+  background: none;
+}
+
+.skip-btn-on-header {
+  background: none;
+  border: none;
+}
+
+.message-style {
+  border-radius: 10px;
+  border: 2px solid #e15258;
+}
+
+.padding-top-on-header {
+  padding-top: 20px;
+}
+
+.input-text-color {
+  color: black;
+}
+
+.deep-placeholder {
+  color: #828282;
+}
+
+.deep-placeholder::placeholder {
+  color: #828282;
+}
+
+/* ################################## tank you page ################################## */
+.tankyou-bg {
+  background-color: #f9dcdd;
+  text-align: center;
+  margin: 300px 0;
+}
+
+.tankyou-bg h1 {
+  color: #20282e;
+  font-weight: 1000;
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.tankyou-bg h2 {
+  color: #20282e;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* ################################## tank you page ################################## */
+.employee-next-btn {
+    padding: 5px;
+    background: #d71921;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 12px;
+    border:none;
+}
+/*.choose-cetagory-btn {*/
+/*  font-size: 16px;*/
+/*  font-weight: 500;*/
+/*  padding: 5px;*/
+/*  text-align: center;*/
+/*  width: 100%;*/
+/*  display: block;*/
+/*  text-decoration: none;*/
+/*  background-color: #d71921;*/
+/*  color: #ffffff;*/
+/*  border-radius: 15px;*/
+/*  margin: 20px 0;*/
+/*  margin-bottom: 0;*/
+/*  transition: 0.5s linear;*/
+/*  border: none;*/
+/*}*/
+
+/*.choose-cetagory-btn:hover {*/
+/*  text-decoration: none;*/
+/*  color: white;*/
+/*  background-color: #c7c7c7;*/
+/*}*/
+
+.choose-cetagory-p {
+  padding: 10px 0;
+  padding-bottom: 0 !important;
+  font-size: 11px;
+  text-align: center;
+}
+
+.choose-cetagory-p a {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s linear;
+}
+
+.choose-cetagory-p a:hover {
+  color: #828282;
+}
+
+.cetagory-footer p {
+  text-align: center;
+  font-size: 10px;
+  line-height: 0px;
+  font-weight: 500;
+}
+
+.employ-login-single-box {
+  display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+}
+
+.employ-login-single-box i {
+  margin-top: -20px;
+  color: #c7c7c7;
+}
+
+.employ-login-single-box input {
+  margin-top: -7px !important;
+}
+
+.employ-login-single-box input::placeholder {
+  color: #c7c7c7;
+}
+
+.login-checkbox {
+  width: 13px;
+}
+
+.login-label {
+  font-size: 12px;
+}
+
+.forget-password-a {
+  text-decoration: underline;
+  font-size: 15px;
+  text-align: center;
+}
+
+.not-account-on-login {
+  margin: 40px 0;
+  margin-bottom: 60px;
+  font-size: 15px;
+}
+
+.not-account-on-login > a {
+  color: #e15258;
+  text-decoration: underline;
+}
+
+.remember-me {
+  margin-top: -20px;
+}
+
+/* #################################### employee registation page #################### */
+#em-res-step-two {
+  display: none;
+}
+#em-res-step-three {
+  display: none;
+}
+/* ------------------------- */
+.employee-res-pointer {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background-color: #aeaeae;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.employee-res-pointer:first-child {
+  background-color: #d71921;
+  color: white;
+}
+
+.employee-res-input-border {
+  border: 2px solid #e0e0e0;
+  font-weight: 600;
+  color: black;
+  font-size: 25px;
+}
+
+/* #################################### setting password page #################### */
+.em-res-step-two {
+  display: none;
+}
+
+.setting-password-header {
+  background-color: #f9dcdd;
+  padding: 30px 40px;
+  padding-bottom: 0;
+}
+
+.setting-password-header h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.setting-password-header h5 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.setting-password-header p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.set-apass-choose-pass {
+  padding: 40px 0;
+  font-weight: 500;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+.set-pass-btn {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.set-pass-label {
+  font-weight: 800;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.check-pass {
+  padding: 10px 0;
+  padding-bottom: 0;
+}
+
+.check-line-box {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-around;
+}
+.check-line {
+  height: 3px;
+  width: 20%;
+  background-color: #c4c4c4;
+}
+
+/* ################################ varification page @@@@@@@@@@@@@@@@@@@@@@@@ */
+.varification-header {
+  background-color: #f9dcdd;
+  padding: 20px 40px;
+}
+
+.varification-header h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.v-code-field {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  border: 2px solid #e7e7e7;
+  color: #363636;
+  border-radius: 10px;
+}
+
+.v-code-norder {
+  border: none;
+}
+
+.sent-new-code {
+  color: #d9272e;
+  text-decoration: underline;
+}
+
+.verification-bottom p {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.verification-bottom span {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  margin-top: -40px;
+  display: block;
+}
+
+.verificationn-p {
+  padding: 40px 0;
+  font-weight: 500;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+/* for pc version ----------------------------- */
+.v-code-main-box {
+  background-color: #f8e3df;
+}
+
+.verificationn-p-pc {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+  margin-top: -30px;
+}
+
+.verificationn-pc-mail {
+  line-height: 40px;
+}
+
+.varification-header-pc {
+  background-color: none !important;
+}
+
+.line-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-two {
+  width: 6%;
+  height: 10px;
+  background-color: #d71921;
+  border-radius: 20px;
+}
+
+.line-one,
+.line-three {
+  width: 47%;
+  height: 2px;
+  background-color: #d71921;
+}
+
+.pc-set-pass-label {
+  background-color: white;
+}
+
+.custom-olaceholder {
+  color: #c7c7c7 !important;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ profile creation page @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.profile-creation-heading h1 {
+  text-shadow: 600;
+  padding: 10px 0;
+  font-size: 20px;
+  padding-bottom: 0;
+}
+
+.add-education {
+  background-color: #e0555a;
+  color: #f1f2f6;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+/* ########################$ thank u page @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.tankyou-pc h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.employ-login-single-box-pc {
+  width: 50px;
+}
+
+.input-box-pc {
+  background: none;
+  font-size: 17px;
+  border: 2px solid #e15258;
+  padding: 8px 15px;
+  display: block;
+  width: 100%;
+}
+
+.input-box-pc::placeholder {
+  color: #c7c7c7;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ employee profile creation page @@@@@@@@@@@@@@@@@@ */
+.employee-profile-creation-box {
+  background-color: #f8e3df;
+}
+
+.profile-creation-heading-com h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile-creation-heading-com {
+  background-color: #f9dcdd;
+  padding: 20px 40px;
+}
+
+.continue-com-btn {
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.continue-com-btn:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid #20282e;
+  text-decoration: none;
+}
+.text-area-com {
+  min-height: 200px;
+}
+
+/* ################################ start welcome dasboad page @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.welcome-box {
+  padding: 150px 0;
+}
+.welcome-box p {
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.welcome-box a {
+  padding: 2px 40px;
+  border-radius: 10px;
+  color: wheat;
+  display: inline-block;
+  background-color: #d71921;
+  font-size: 15px;
+  font-weight: 550;
+  margin: 20px 0;
+  transition: 0.5s linear;
+}
+
+.welcome-box a:hover {
+  color: #20282e;
+  border: 2px solid #20282e;
+  background-color: white;
+  text-decoration: none;
+}
+
+.company_details_border {
+  border: 2px solid #e5e5e5;
+}

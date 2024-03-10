@@ -1,0 +1,179 @@
+   .logo{
+        /*margin-top: 150px;*/
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .userbtns{
+        text-align:center;
+    }
+    p.cat{
+        padding-bottom: 15px;color: #333;
+    }
+    .userbtns .nav-tabs>li{
+        
+        width: 80%;
+    }
+    .userbtns .nav-tabs{gap: 10px; }
+    .terms{
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    a.red-text{
+        color: #DB3036;
+        background: #F6C5C8;
+        font-weight: 600;
+    }
+    .useraccountwrap{
+        height: 80vh;
+        position:relative;
+    }
+    .copyright{
+        position: absolute;
+        bottom: 0;
+            background: transparent;
+    }
+    .copyright p{
+        font-size:12px;margin-bottom: 0;color: #000;line-height: 16px;
+    }
+    .text-red{
+        color: #DB3036;
+    }
+      .language-toggle label {
+      margin-bottom: 0;
+    }
+
+    .language-toggle input {
+      position: absolute;
+      clip: rect(0, 0, 0, 0);
+    }
+
+    .language-toggle label {
+         display: inline-block;
+        /* background-color: #e9ecef; */
+        padding: 5px 14px;
+        cursor: pointer;
+        user-select: none;
+        border: 1px solid #C08389;
+        margin-right: -5px;  
+    }
+
+    .language-toggle input:checked + label {
+      background-color: #E4293B;
+      color: #fff;
+    }
+    .language-toggle input:first-child + label {
+      border-top-left-radius: 5px; /* Set border-radius for the first button */
+      border-bottom-left-radius: 5px;
+    }
+
+   .language-toggle input:last-of-type + label {
+      border-top-right-radius: 5px; /* Set border-radius for the last button */
+      border-bottom-right-radius: 5px;
+    }
+    .social-loginc {
+    margin: 30px;
+    }
+    .social-loginc a.fb {
+         border: 1px solid #002c89;
+    color: #002c89;
+    justify-content: center
+    }
+    .social-loginc a.gp {
+        border: 1px solid #FF3D00;
+        color: #FF3D00;
+        justify-content: center
+    }
+    .social-loginc a.tw {
+        border: 1px solid #007AB9;
+        color: #007AB9;
+        justify-content: center
+    }
+    
+    .social-loginc a {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        height: auto;
+        border-radius: 10px;
+        padding: 11px 25px !important;
+        font-size: 15px;
+        margin: 10px 5px;
+        line-height: 36px;
+    }
+    .formpanel2 .form-control {
+        height: auto;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 13px;
+    border-left: 0;
+    }
+    .user_main_container h1 {
+    font-size: 20px;
+    color: #dc3545;
+}
+.input-group.mb-3.candidate-password-login {
+    background-color: #e8f0fe;
+}
+
+.back_btn {
+    margin-right: 10px; /* Adjust margin for spacing between the back button and the logo */
+}
+.submit-button{
+    text-align:center;
+}
+.submit-button .btn{
+       padding: 5px;
+    background: #d71921;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 12px;
+    font-size: 16px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.forget_pass{
+    color: #d71921;
+    text-decoration: underline;
+}
+.input-group.mb-3.candidate-password-login {
+    background-color: #e8f0fe;
+}
+
+.set-pass-btn {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.set-pass-label {
+  font-weight: 800;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.check-pass {
+  padding: 10px 0;
+  padding-bottom: 0;
+  font-size: 10px;
+  display: none;
+}
+
+.check-line-box {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.eye i {
+  font-size: 10px;
+  color: black;
+  height: 5px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.eye i:last-child {
+  display: none;
+}
